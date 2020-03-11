@@ -9,14 +9,14 @@ body {
 }
 
 .app {
-  background-image: url('./assets/cold-bg.jpg');
+  background-image: url('./assets/cold-bg-sm.webp');
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
 }
 
 .app.warm {
-  background-image: url('./assets/warm-bg.jpg');
+  background-image: url('./assets/warm-bg-sm.webp');
 }
 
 main {
@@ -95,9 +95,53 @@ main {
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+.weather-box .min_max {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.weather-box .min_max .temp_min {
+  margin-right: 70px;
+}
+
+.weather-box .min_max svg {
+  margin-right: 5px;
+}
+
+.weather-box .humidity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
 .weather-box .weather {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+@media screen and (min-width: 600px) {
+	.app {
+  		background-image: url('./assets/cold-bg-md.webp');
+  	}
+
+	.app.warm {
+  		background-image: url('./assets/warm-bg-md.webp');
+	}
+
+	.search-box {
+		display: flex;
+		justify-content: center;
+	}
+
+	.search-box .search-bar {
+		width: 60%;
+	}
 }
