@@ -16,7 +16,7 @@ function App() {
 
     if (evt.key === "Enter") {
       //query api
-      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}&lang=pt_br`)
         .then(res => res.json())
         .then(result => {
           setWeather(result);
