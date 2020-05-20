@@ -1,7 +1,9 @@
 # Weather App
 #### Screenshots in mobile
 
-![Novo Projeto (1)](https://user-images.githubusercontent.com/56132780/76463844-eed58f80-63c2-11ea-8a46-bc91a3bd7641.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/56132780/76463844-eed58f80-63c2-11ea-8a46-bc91a3bd7641.png" />
+</p>
 #
 
 ### Screenshots in web
